@@ -81,9 +81,9 @@ class Invoice extends AbstractRequest
      * @param array $data
      * @return object
      */
-    public function duplcate(string $id, array $data)
+    public function duplicate(string $id, array $data)
     {
-        $response = $this->request('invoices/' . $id . '/duplate', 'POST');
+        $response = $this->request('invoices/' . $id . '/duplicate', 'POST');
 
         return $this->parseResponse($response);
     }
