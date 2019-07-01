@@ -1,6 +1,7 @@
 {
     "name": "kesse/laravel-iugu",
     "license": "MIT",
+    "version": "1.0.0-dev",
     "authors": [
         {
             "name": "Kesse Jones",
