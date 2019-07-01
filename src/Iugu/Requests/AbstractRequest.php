@@ -48,7 +48,7 @@ abstract class AbstractRequest
      * @param array $data
      * @return Response
      */
-    protected function request($uri, $method = 'GET', $headers = [], $data = [])
+    protected function request($uri, $method = 'GET', $data = [], $headers = [])
     {
         try
         {
